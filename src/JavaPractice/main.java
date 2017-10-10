@@ -17,6 +17,23 @@ public class main {
 		kensAge = 23;
 		System.out.println("えっと、本当の年齢は" +kensAge +"です");
 
+		boolean tenki = true;
+		if (tenki == true){
+			System.out.println("洗濯をします");
+			System.out.println("散歩に行きます");
+
+		}else{
+			System.out.println("DVDを見ます");
+		}
+
+
+		boolean doorClose = true;
+		while (doorClose == false){
+			System.out.println("ノックする");
+		}
+		for (int i = 0; i<3 ; i++){
+			System.out.println("現在" + (i+1)+ "週目→");
+		}
 
 		/// TODO 自動生成されたメソッド・スタブ
 
